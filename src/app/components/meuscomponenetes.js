@@ -14,16 +14,16 @@ export const BotaoNeo = styled.button`
         background-color: #089590;
     }
 `;
-export const Menus = styled.nav`
+export const MenuNeoPorto = styled.nav`
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens do menu se ajustem à tela pequena */
+    flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 `;
 
-export const Menuitem = styled.a`
+export const LinksNeo = styled.a`
     text-decoration: none;
     color: #000000;
     padding: 10px 20px;
