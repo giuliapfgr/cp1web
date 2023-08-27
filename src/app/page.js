@@ -1,15 +1,17 @@
 'use client'
-// pages/index.js
 import React from 'react';
-import { BotaoNeo, Menus, Menuitem, Footer, Pbranco, Body, TituloVerdeNeo } from './components/meuscomponenetes'; // Importe os componentes estilizados
+import { BotaoNeo, MenuNeoPorto, LinksNeo, Footer, Pbranco, Body, TituloVerdeNeo } from './components/meuscomponenetes'; // Importe os componentes estilizados
 export default function Home() {
     return (
         <Body>
-            <Menus>
-            <Menuitem href="#">Home</Menuitem>
-            <Menuitem href="#">NEO Porto</Menuitem>
-            <Menuitem href="#">Equipe</Menuitem>
-            </Menus>
+            <MenuNeoPorto>
+
+            <LinksNeo href="#">Home</LinksNeo>
+            <LinksNeo href="#">NEO Porto</LinksNeo>
+            <LinksNeo href="#">Equipe</LinksNeo>
+
+            </MenuNeoPorto>
+
             <TituloVerdeNeo>Conheça a NeoPorto</TituloVerdeNeo>
             <BotaoNeo>Saiba mais</BotaoNeo>
             <Footer>
