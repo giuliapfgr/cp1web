@@ -6,7 +6,6 @@ export default function Home() {
     return (
         <Body>
             <Menus>
-            <img src="" alt="Ícone do Menu" />
             <Menuitem href="#">Home</Menuitem>
             <Menuitem href="#">NEO Porto</Menuitem>
             <Menuitem href="#">Equipe</Menuitem>
@@ -14,7 +13,6 @@ export default function Home() {
             <TituloVerdeNeo>Conheça a NeoPorto</TituloVerdeNeo>
             <BotaoNeo>Saiba mais</BotaoNeo>
             <Footer>
-            <img src="" alt="Ícone do Menu" />
                 <div>
                     <Pbranco>Uma iniciativa Porto Seguro</Pbranco>
                     <Pbranco>&copy; 2023 Todos os direitos reservados.</Pbranco>
