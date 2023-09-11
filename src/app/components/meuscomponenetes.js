@@ -5,6 +5,7 @@ export const BotaoNeo = styled.button`
     padding: 10px 20px;
     font-size: 16px;
     background-color: #09BAB4;
+    max-width: 200px;
     color: #ffffff;
     border: none;
     border-radius: 3px;
@@ -21,6 +22,7 @@ export const MenuNeoPorto = styled.nav`
     background-color: #ffffff;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 100px; 
 `;
 
 export const LinksNeo = styled.a`
@@ -35,13 +37,11 @@ export const LinksNeo = styled.a`
     }
 `;
 
-export const Footer = styled.a`
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #000;
-    padding: 10px;
-`;
+export const Text = styled.p`
+    font-size: 15px;
+    padding: 10px
+`
+
 
 export const Pbranco = styled.p`
     color: #ffffff;
@@ -51,13 +51,8 @@ export const Pbranco = styled.p`
 export const Body = styled.body`
     @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
     font-family: 'Poppins', sans-serif;
-    margin = 0;
-    padding = 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 `;
 
-export const TituloVerdeNeo = styled.p`
-    font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    color: #09BAB4;
-    font-weight: 600;
-`;
