@@ -20,11 +20,6 @@ export const Text = styled.p`
 `;
 
 
-export const Divrow = styled.div`
-    display: flex;
-    flexDirection: row;
-`;
-
 
 export const Pbranco = styled.p`
     color: #ffffff;

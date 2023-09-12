@@ -1,20 +1,15 @@
 'use client'
 
+import Head from 'next/head'
 import Image from 'next/image'
-import {ImagemCelular} from './components/ImagemCelular'
-import { BoxDiv1 } from './components/BoxDiv1';
-import { CelularTexto } from './components/CelularTexto';
-import { BoxPqNeo } from './components/BoxPqNeo';
+import { BoxDiv1, BoxImg1, BoxPqNeo, BoxSistemaRastreamento, Divrow, CelularTexto } from './components/BoxDiv';
+import { ImagemPorqueNeoPorto, ImageDiv1, ImagemCelular, LogoNeoPorto } from './components/Imagem';
 import { TituloNeo, Titulo1 } from './components/TituloNeo';
-import { BoxSistemaRastreamento } from './components/BoxSistemaRastreamento'
-import { ImageDiv1 } from './components/ImagemDiv1';
-import { BoxImg1 } from './components/BoxImg1';
-import {ImagemPorqueNeoPorto} from './components/ImagemPorqueNeoPorto'
-import { MenuNeoPorto, Body, Divrow, } from './components/meuscomponenetes';
+import { MenuNeoPorto, Body, } from './components/meuscomponenetes';
 
 export default function Home() {
 
-    
+
     const imagemEstilo = {
         display: 'block', 
         margin: '0 auto',
