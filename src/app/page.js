@@ -10,8 +10,7 @@ import {BoxSistemaRastreamento} from './components/BoxSistemaRastreamento'
 import { ImageDiv1 } from './components/ImagemDiv1';
 import { BoxImg1 } from './components/BoxImg1';
 import {ImagemPorqueNeoPorto} from './components/ImagemPorqueNeoPorto'
-import { ImageWrapper } from './components/ImageWrapper';
-import { BotaoNeo, MenuNeoPorto, LinksNeo, Footer, Pbranco, Body, } from './components/meuscomponenetes';
+import { MenuNeoPorto, Body, Divrow, Titulo1 } from './components/meuscomponenetes';
 
 export default function Home() {
 
@@ -35,22 +34,23 @@ export default function Home() {
         </MenuNeoPorto>
 
         <BoxDiv1> 
-            <TituloNeo>Conheça a NeoPorto</TituloNeo>
+            <Titulo1>Conheça a NeoPorto</Titulo1>
             <p>O novo sistema de solicitação de guinchos para carros pesados da Porto Seguro!</p>
                 <BoxImg1 style={{display: 'flex', flexDirection: 'row'}}>
-                <ImageDiv1 src='motorista_celular.jpg'/>
+                <ImageDiv1 src='caminhoneiro_no_celular.webp'/>
                 <ImageDiv1 src='guinchosite.png'/>
                 </BoxImg1>
-                <BotaoNeo>Visualizar</BotaoNeo>
         </BoxDiv1>
 
-        <TituloNeo><br></br>Nossa plataforma auxiliará os usuários a fornecer as informações necessárias sobre características específicas do veículo.</TituloNeo>
+        <TituloNeo>Nossa plataforma auxiliará os usuários a fornecer as informações necessárias sobre características específicas do veículo.</TituloNeo>
         
         <div>
             <CelularTexto>
-                <ImagemCelular src='imagemChat.png'/>
-                <p>NeoPorto é um sistema desenvolvido especialmente para veículos pesados, com o objetivo de simplificar e tornar mais assertiva a comunicação durante a solicitação de guinchos.</p>
+                <Divrow><ImagemCelular src='imagemChat.png'/>
+                <p>NeoPorto é um sistema desenvolvido especialmente para veículos pesados, com o objetivo de simplificar e 
+                    tornar mais assertiva a comunicação durante a solicitação de guinchos.</p></Divrow>
             </CelularTexto>
+        
         </div>
 
             <BoxPqNeo>
@@ -61,16 +61,20 @@ export default function Home() {
             <BoxSistemaRastreamento>
                 <TituloNeo>Sistema de Rastreamento</TituloNeo>
                 <CelularTexto>
+                    <Divrow>
                     <p>A NeoPorto conta com um sistema de rastreamento desde o momento que o guincho sai do local de partida até ondeo cliente está localizado, ajudando com a ansiedade do cliente.</p>
                     <ImagemCelular src='celularRastreio.png'/>
+                    </Divrow>
                 </CelularTexto>
             </BoxSistemaRastreamento>
-
         <div>
             <TituloNeo>Reconhecimento de imagem</TituloNeo>
             <CelularTexto>
+                <Divrow>
             <ImagemCelular src='reconhecimento_img.png'/>
             <p>A NeoPorto conta com um sistema de rastreamento desde o momento que o guincho sai do local de partida até ondeo cliente está localizado, ajudando com a ansiedade do cliente.</p>
+            </Divrow>
+            
             </CelularTexto>
         </div>
     </Body>

@@ -5,7 +5,5 @@ export const TituloNeo = styled.p`
     font-size: 30px;
     color: #00000;
     font-weight: 600;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-left: 30px
 `;

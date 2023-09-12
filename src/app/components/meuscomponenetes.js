@@ -1,20 +1,6 @@
 
 import styled from 'styled-components';
 
-export const BotaoNeo = styled.button`
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #09BAB4;
-    max-width: 200px;
-    color: #ffffff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    &:hover {
-        background-color: #089590;
-    }
-`;
 export const MenuNeoPorto = styled.nav`
     display: flex;
     flex-wrap: wrap;
@@ -23,24 +9,26 @@ export const MenuNeoPorto = styled.nav`
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     max-height: 100px; 
+    margin-botton: 10px;
 `;
 
-export const LinksNeo = styled.a`
-    text-decoration: none;
-    color: #000000;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    &:hover {
-        color: #09BAB4;
-    }
-`;
 
 export const Text = styled.p`
     font-size: 15px;
     padding: 10px
-`
+`;
+
+export const Titulo1 = styled.p`
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #24B4B0;
+    font-weight: 600;
+`;
+
+export const Divrow = styled.div`
+    display: flex;
+    flexDirection: row;
+`;
 
 
 export const Pbranco = styled.p`
@@ -50,7 +38,6 @@ export const Pbranco = styled.p`
 
 export const Body = styled.body`
     @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-    font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
