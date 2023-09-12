@@ -5,12 +5,12 @@ import {ImagemCelular} from './components/ImagemCelular'
 import { BoxDiv1 } from './components/BoxDiv1';
 import { CelularTexto } from './components/CelularTexto';
 import { BoxPqNeo } from './components/BoxPqNeo';
-import { TituloNeo } from './components/TituloNeo';
-import {BoxSistemaRastreamento} from './components/BoxSistemaRastreamento'
+import { TituloNeo, Titulo1 } from './components/TituloNeo';
+import { BoxSistemaRastreamento } from './components/BoxSistemaRastreamento'
 import { ImageDiv1 } from './components/ImagemDiv1';
 import { BoxImg1 } from './components/BoxImg1';
 import {ImagemPorqueNeoPorto} from './components/ImagemPorqueNeoPorto'
-import { MenuNeoPorto, Body, Divrow, Titulo1 } from './components/meuscomponenetes';
+import { MenuNeoPorto, Body, Divrow, } from './components/meuscomponenetes';
 
 export default function Home() {
 
@@ -46,7 +46,7 @@ export default function Home() {
         
         <div>
             <CelularTexto>
-                <Divrow><ImagemCelular src='imagemChat.png'/>
+                <Divrow><ImagemCelular src='dialogo.png'/>
                 <p>NeoPorto é um sistema desenvolvido especialmente para veículos pesados, com o objetivo de simplificar e 
                     tornar mais assertiva a comunicação durante a solicitação de guinchos.</p></Divrow>
             </CelularTexto>

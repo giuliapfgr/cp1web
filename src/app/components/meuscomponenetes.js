@@ -16,14 +16,9 @@ export const MenuNeoPorto = styled.nav`
 export const Text = styled.p`
     font-size: 15px;
     padding: 10px
+    font-family: 'Poppins', sans-serif;
 `;
 
-export const Titulo1 = styled.p`
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    color: #24B4B0;
-    font-weight: 600;
-`;
 
 export const Divrow = styled.div`
     display: flex;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ImagemCelular = styled.img`
     border-radius: 5px;
-    margin: 1rem;
+    margin-left: 35px;
     width: 30%;
     height: auto;
 `
